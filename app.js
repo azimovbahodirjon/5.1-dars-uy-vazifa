@@ -169,3 +169,32 @@ Kutilyotgan natija: [1,2,3,4,5,6]*/
 //   }
 // });
 // console.log(`So'ralayotgan harf: ${counter}marta ishtirok etgan.`);
+
+//MASALA8
+
+// const types = [21.1, "Roziya", "Array", ["I am array"], null, true, 214];
+// const newTypes = [];
+
+// types.forEach((type) => {
+//     newTypes.push(typeof type);
+// });
+// console.log(newTypes)
+
+//MASALA9
+
+/*Kiritilgan text ni nechta elementdan iboratligini aniqlovchi  cod yozing. lendthdan foydalanmang */
+
+// const word = "Uzbekistan";
+// word.lastIndexOf(word.slice(-1)) + 1;
+
+
+//MASALA10
+/*Arrayning berilgan: [1,2,3,4,5,] uning ichidagi elementlariga oz index(position) raqamini qoshib yangi array xosil qiling */
+
+const number = [1, 2, 3, 4, 5, ]
+let result = []
+
+number.forEach((num, i) => {
+    result.push(num + i)
+})
+console.log(result)
