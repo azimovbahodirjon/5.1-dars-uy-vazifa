@@ -191,10 +191,10 @@ Kutilyotgan natija: [1,2,3,4,5,6]*/
 //MASALA10
 /*Arrayning berilgan: [1,2,3,4,5,] uning ichidagi elementlariga oz index(position) raqamini qoshib yangi array xosil qiling */
 
-const number = [1, 2, 3, 4, 5, ]
-let result = []
+// const number = [1, 2, 3, 4, 5, ]
+// let result = []
 
-number.forEach((num, i) => {
-    result.push(num + i)
-})
-console.log(result)
+// number.forEach((num, i) => {
+//     result.push(num + i)
+// })
+// console.log(result)
