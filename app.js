@@ -99,3 +99,73 @@ Kutilyotgan natija: [1,2,3,4,5,6]*/
 //     }
 // })
 // console.log(newData)
+
+// MASALA3
+/* [null, 0, "", false, udefined, NaN]  qiymatlarini ajratib oladigan cod yozing.  */
+
+// const checkData = [null, 'false', 0, 99, false, undefined, '', NaN, '0']
+// const falsey = []
+
+// checkData.forEach((item) => {
+//     if (!item) {
+//         falsey.push(item)
+//     }
+// })
+// console.log(falsey)
+
+//MASALA4
+/*Berilgan qiymat: 'Samarqand' */
+//Kutilyotgan qiymat: dnaqramas => elementlarni teskari qilib beradigan cod yozing.
+
+// const word = 'samarqand'
+
+// const splitWord = word.split('').reverse()
+
+// let newWord = ''
+// for (let i = 0; i < splitWord.length; i++) {
+//     newWord += splitWord[i]
+// }
+// console.log(newWord)
+
+//MASALA5
+/*promtda kiritilgan istalgan sozlarni misol uchun. */
+//Kiritilgan: "AsSSalomu ALAyKUM YaxSHimisiz" sozi kiritilgan bolsa. Uni:
+//Javob: "aSSALOMU aLAYKUM yAXSHIMISIZ" korinishida qaytaring
+
+// const word = 'AsSSalomu ALAyKUM YaxSHimisiz'
+// const splitWord = word.split(' ')
+// let newWord = ''
+
+// splitWord.forEach((item) => {
+//     const boshi = item.charAt().toLocaleLowerCase()
+//     const davomi = item.slice(1).toLocaleUpperCase()
+
+//     newWord += ' ' + boshi + davomi
+// })
+
+// console.log(newWord.trimStart())
+
+//MASALA6
+
+// const numbers = [-1, 87, 4, 3.1, -5.5, Infinity, 0, 1, 2, 0.9]
+// let naturalNumbers = 0
+
+// numbers.forEach((num) => {
+//     if (num >= 0.0 && Math.floor(num) === num && num !== Infinity && num !== 0) {
+//         naturalNumbers += num
+//     }
+// })
+// console.log(naturalNumbers)
+
+// Malasa7
+
+// const words = "Qalesiz yaxshimisiz ? Yaxshimi ishlar ?";
+// let splitWord = words.split("");
+// let counter = 0;
+
+// splitWord.forEach((word) => {
+//   if (word == "a" || word == "A") {
+//     counter++;
+//   }
+// });
+// console.log(`So'ralayotgan harf: ${counter}marta ishtirok etgan.`);
